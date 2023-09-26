@@ -1,0 +1,12 @@
+LINKED LIST : it is a linear ds based on non continuous memory allocation unlike array it overcomes the problem of continuous memory allocation of array, it has a pointer which tells the location of the next memory address which has the data.
+
+no memory wastage, we can create and delete a node at run time.
+NOTE : LINKED LIST IS LIKE HINDI JO BOLTE HAI WHI KRNA HOTA HAI
+
+NOTE : also same for DOUBLY LL
+Time complexity of inserting a node at head and tail of LL is constant O(1)
+Time complexity of inserting a node at middle or certain position of LL is  O(n)
+
+Time complexity of deleting a node at head of LL is constant O(1)
+Time complexity of deleting a node at middle or tail of LL is O(n)
+continue from 1 hr 5 min

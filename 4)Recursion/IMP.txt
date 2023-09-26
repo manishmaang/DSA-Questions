@@ -1,0 +1,48 @@
+RECURSON TRUTH : ek case khd solve krdo baki recursion samhaal lega
+
+RECURSION 
+
+when a function calls itself directly or indirectly, it is called recursion.
+
+CONCEPT : jb ek bigger problem, chhoti problem pr depend kre or dono prolem same type ki ho tb hum recursion apply krte hai.
+Example : agr muje factorial(5) niklna ho to pehle mujhe factorial(4) nikalna hoga 
+           factorial(5) = 5 * factorial(4) (factorial(5) = bigger problem, factorial(4) = smaller problem)
+
+Recurse code have 3 parts 1) base condition 2) recursive relation 3) processing statements
+CODE :
+#include <iostream>
+
+using namespace std;
+int factorial (int n)
+{
+    
+    if(n==1)// BASE CONDITON : consist of return keyword, kb function ko rokna hai ye batata hai(MANDATORY)
+    {
+        return 1; 
+    }
+    
+   return n*factorial(n-1);// RECURSIVE RELATION : kis way me apna recursion ka call ja rha hai(MANDATORY)
+    
+//PROCESSING STATEMENTS : base condition or RR ke alawa jo bhi statements ho vo sare processing statements hote hai inme commonly calculations wale part or cout statements hote hai (OPTIONAL)  
+}
+int main()
+{
+    int n=5;
+    int s = factorial(n);
+    cout<<s;
+
+    return 0;
+}
+
+Jb bhi ek Recursive call aata hai to us function ki entry call stack pr jati hai jo LIFO ( LAST IN FIRST OUT ) order me kaam krta hai, jo call latest aaya vo function ki entry sbse upr or sbse pehle processor usi function ko solve krega or fir us function ki entry ko pop karega. 
+
+Recursion Types : 1) HEAD Recursion 2) TAIL Recursion 
+
+NOTE : jb hum code ko  dry run karenge to jo bhi call mujhe pehle dikhta hai me pehle use solve karunga.
+    kbhi bhi agr muje ek variable me ans store krna hai to muje us variable ko pass by reference krna hoga.
+
+IMP : JB BHI RECURSION KA QUESITON SOLVE KRO OR FAIL HO JAO TO EK BAR USI LOGIC KO HEAD OR TAIL RECURSION  
+      DONO ME TRY KRNA.
+
+
+

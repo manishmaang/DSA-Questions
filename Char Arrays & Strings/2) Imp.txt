@@ -7,3 +7,5 @@ Learn how 2 use string functions :
    our substring is starting
 
 3) str.erase(a,b) => a = starting index of substr, b => length of substr
+
+NOTE : basic maths for dsa in copy

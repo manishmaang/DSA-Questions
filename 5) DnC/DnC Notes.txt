@@ -1,0 +1,13 @@
+DIVIDE AND CONQUER NOTES 
+
+H/W : time O(nlogn) and space complexity of merge sort and also find out if we can do merge sort without    
+      extra space which is called in place merge sort.
+H/W : Problem : INVERSION COUNT on YT or Google
+
+QUICK SORT : It has two logics first one is PARTITION LOGIC : where we select a pivot element it can be any 
+             element from the array but generally we take the first element as pivot and then we place that  
+             element in its correct position and elements bigger than pivot goes on right side and smaller 
+             elements goes on left side of the pivot element.
+             RECURSIVE LOGIC : it sorts the left and right halfs of an array.
+And rest we leave it upto recursion coz ek case hum samhal le baki recursion samhal lega. 
+TIME COMPLEXITY : best and avg case = O(nlogn), worst case (when arr is reverse sorted) = O(n*n)
