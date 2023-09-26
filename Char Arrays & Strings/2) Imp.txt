@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Learn how 2 use string functions :
 
 1) str.substr(a,b) => a = konsi position se substr banani hai, b = kitne length ki substr banani hai
@@ -9,3 +10,14 @@ Learn how 2 use string functions :
 3) str.erase(a,b) => a = starting index of substr, b => length of substr
 
 NOTE : basic maths for dsa in copy
+=======
+Learn how 2 use string functions :
+
+1) str.substr(a,b) => a = konsi position se substr banani hai, b = kitne length ki substr banani hai
+   this function returns a substr from our current str
+
+2) str.find(a) => a = substr needs to be find in og str, this function returns the index from where
+   our substring is starting
+
+3) str.erase(a,b) => a = starting index of substr, b => length of substr
+>>>>>>> edc2ed130985a34e0e29cc3f47806a5d8c2f15aa
