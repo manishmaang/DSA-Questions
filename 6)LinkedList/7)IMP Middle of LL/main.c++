@@ -45,7 +45,7 @@ Node *middle(Node *&head)
     // ll has more than one element
     Node *fast = head;
     Node *slow = head;
-    while (slow != nullptr && fast != nullptr)
+    while (fast != nullptr)
     {
         fast = fast->next;
         if (fast == nullptr)
@@ -75,6 +75,6 @@ int main()
 
     Node *m = middle(first);
     cout << "data of middle node is " << m->data;
-    // agr 30 ans me chahiye to head ko head=head->next se start krna padega
+    // agr 30 ans me chahiye to fast ko fast = head->next se start krna padega
     return 0;
 }
